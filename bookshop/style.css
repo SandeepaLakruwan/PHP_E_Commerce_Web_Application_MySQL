@@ -1,0 +1,166 @@
+.register {
+    width: 450px;
+    height: 350px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.signout:hover {
+    cursor: pointer;
+}
+
+.poster-img-1 {
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption {
+    margin-bottom: 200px;
+}
+
+.poster-caption-1 {
+    margin-bottom: 70px;
+    margin-right: 280px;
+}
+
+.poster-title {
+    color: rgb(246, 244, 244);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.poster-txt {
+    font-size: 20px;
+    color: rgb(118, 194, 245);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title01 {
+    font-family: "Honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("resource/bookstore.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("logo.jpg");
+    /* height: 100px; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title02 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pm {
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1 {
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2 {
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3 {
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4 {
+    background-image: url("resource/payment_method/paypal_img.png");
+}
+
+.emptyView {
+    height: 400px;
+    background-image: url("resource/empty.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.emptyCart {
+    height: 400px;
+    background-image: url("resource/empty.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.adminLogo {
+    height: 50px;
+    background-image: url("logo.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.singleProduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+}
+
+.mainImg {
+    height: 640px;
+    /* background-image: url("resource/empty.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4 {
+    height: 350px;
+    width: 400px;
+}
+
+.image3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.message-icon {
+    position: fixed;
+    bottom: 7px;
+    left: 1180px;
+    z-index: 1000;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.modal-body-scroll {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
