@@ -1,4 +1,4 @@
-<?php
+ant<?php
 session_start();
 include "Database.php";
 
@@ -46,8 +46,8 @@ if(isset($_SESSION["i"])){
         $uaddress = $address;
         $city = $district_data["city_name"];
 
-        $merchant_id = "1223784";
-        $merchant_secret = "MjgzNjExMjg3ODE2NjQxMzc1MzMzODEwMTI3ODU0MzM0MjU0NDMyOA==";
+        $merchant_id = "merchant_id";
+        $merchant_secret = "merchant_secret";
         $currency = "LKR";
 
         $hash = strtoupper(
