@@ -1,4 +1,4 @@
-ant<?php
+<?php
 session_start();
 include "Database.php";
 
