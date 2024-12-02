@@ -28,6 +28,10 @@ An E-Commerce website for a bookshop, designed to provide a seamless shopping ex
 - **Payment Gateway**: PayHere
 
 ---
+## 🌐 Demo
+- Watch the demo on YouTube: https://youtu.be/1b4lI5qYtII
+
+  ---
 
 ## 🏗️ **Getting Started**
 - Follow these steps to set up and run the project:
